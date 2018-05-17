@@ -1,1 +1,1 @@
-web: DFS_WebApp
+web: go run DFS_WebApp
