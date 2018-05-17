@@ -48,8 +48,9 @@ func GetPort() string {
  	if port == "" {
  		port = "4747"
  		fmt.Println("INFO: No PORT environment variable detected, defaulting to " + port)
- 	}	return ":" + port
- }
+ 	}
+	return ":" + port
+}
 
 func main() {
 	http.HandleFunc("/", IntroductionHandler)
