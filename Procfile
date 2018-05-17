@@ -1,1 +1,1 @@
-web: DFS_WebApp -port=8080
+web: DFS_WebApp -port=$PORT
