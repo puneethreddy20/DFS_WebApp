@@ -51,6 +51,6 @@ func main() {
 	fs := http.FileServer(http.Dir(templatesdirectoryPath))
 	http.Handle(imagesPath, fs)
 
-	log.Fatal(http.ListenAndServe("dfswebapp.herokuapp.com:8080", nil))
+	log.Fatal(http.ListenAndServe(":8080", nil))
 }
 
