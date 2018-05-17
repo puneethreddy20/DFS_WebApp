@@ -1,1 +1,1 @@
-web: `DFS_WebApp`
+web: DFS_WebApp -port=$PORT
